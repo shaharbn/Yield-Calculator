@@ -19,8 +19,8 @@ class Property():
         return the yield by the amount you make per year (like from rent)
     """
     def __init__(self, buying_price, rent):
-        self.buying_price = None
-        self.rent = None
+        self.buying_price = buying_price
+        self.rent = rent
 
     """
     return the yield of the property after sell in x months

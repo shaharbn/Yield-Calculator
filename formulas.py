@@ -17,7 +17,7 @@ def buy_and_make_by_year_yield(price, x_per_year):
     return x_per_year / price * 100
 
 # buy and sell in x months
-def buy_and_sell_in_x_time(buy_price, sell_price, months):
+def buy_and_sell_in_x_month(buy_price, sell_price, months):
     return ((12 * ((sell_price - buy_price) / months)) / buy_price) * 100
 
 
